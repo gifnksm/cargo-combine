@@ -1,0 +1,45 @@
+[workspace]
+members = ["xtask"]
+
+[package]
+name = "cargo-combine"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.64.0"
+description = "A Cargo subcommand that outputs a matrix of build parameters based on workspace paths, packages names, feature names to enable, and toolchain versions."
+readme = "README.md"
+repository = "https://github.com/gifnksm/cargo-combine"
+license = "MIT OR Apache-2.0"
+keywords = []
+categories = []
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package.metadata.cargo-sync-rdme.badge]
+style = "flat-square"
+
+[package.metadata.cargo-sync-rdme.badge.badges]
+maintenance = true
+license = { link = "#license" }
+crates-io = true
+docs-rs = true
+rust-version = true
+github-actions = { workflows = "ci.yml" }
+codecov = true
+[package.metadata.binstall]
+pkg-url = "{ repo }/releases/download/v{ version }/{ name }-v{ version }-{ target }.{ archive-format }"
+bin-dir = "{ bin }{ binary-ext }"
+pkg-fmt = "tgz"
+
+[dependencies]
+clap = { version = "4.1", features = ["derive"] }
+
+[dev-dependencies]
+[build-dependencies]
+
+[profile.dev]
+
+[profile.release]
+strip = true
+
+[badges]
+maintenance = { status = "actively-developed" }
