@@ -31,7 +31,7 @@ bin-dir = "{ bin }{ binary-ext }"
 pkg-fmt = "tgz"
 
 [dependencies]
-clap = { version = "4.1", features = ["derive"] }
+clap = { version = "4.3", features = ["derive"] }
 
 [dev-dependencies]
 [build-dependencies]
