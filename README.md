@@ -6,7 +6,7 @@
 [![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/cargo-combine.svg?style=flat-square)](#license)
 [![crates.io](https://img.shields.io/crates/v/cargo-combine.svg?logo=rust&style=flat-square)](https://crates.io/crates/cargo-combine)
 [![docs.rs](https://img.shields.io/docsrs/cargo-combine.svg?logo=docs.rs&style=flat-square)](https://docs.rs/cargo-combine)
-[![Rust: ^1.65.0](https://img.shields.io/badge/rust-^1.65.0-93450a.svg?logo=rust&style=flat-square)](https://doc.rust-lang.org/cargo/reference/manifest.html#the-rust-version-field)
+[![Rust: ^1.70.0](https://img.shields.io/badge/rust-^1.70.0-93450a.svg?logo=rust&style=flat-square)](https://doc.rust-lang.org/cargo/reference/manifest.html#the-rust-version-field)
 [![GitHub Actions: CI](https://img.shields.io/github/actions/workflow/status/gifnksm/cargo-combine/ci.yml.svg?label=CI&logo=github&style=flat-square)](https://github.com/gifnksm/cargo-combine/actions/workflows/ci.yml)
 [![Codecov](https://img.shields.io/codecov/c/github/gifnksm/cargo-combine.svg?label=codecov&logo=codecov&style=flat-square)](https://codecov.io/gh/gifnksm/cargo-combine)
 <!-- cargo-sync-rdme ]] -->
@@ -41,7 +41,7 @@ $ cargo install --git https://github.com/gifnksm/cargo-combine.git cargo-combine
 
 ## Minimum supported Rust version (MSRV)
 
-The minimum supported Rust version is **Rust 1.65.0**.
+The minimum supported Rust version is **Rust 1.70.0**.
 At least the last 3 versions of stable Rust are supported at any given time.
 
 While a crate is a pre-release status (0.x.x) it may have its MSRV bumped in a patch release.
